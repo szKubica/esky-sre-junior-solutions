@@ -1,18 +1,3 @@
-# version: '3'
-# services:
-#   webserver:
-#     build:
-#       context: .
-#       dockerfile: Dockerfile.nginx
-#     container_name: webserver
-#     ports:
-#      - "80:80"
-#   app:
-#     build:
-#       context: ../solution2
-#       dockerfile: Dockerfile.app
-#     container_name: go_app
-
 version: '3'
 services:
   webserver:

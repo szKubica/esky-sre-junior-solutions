@@ -59,4 +59,4 @@ fi
 
 echo "App is accessible at http://localhost:8080/"
 
-# trap cleanup EXIT
+trap cleanup EXIT
